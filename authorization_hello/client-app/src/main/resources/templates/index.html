@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>pikachues</title>
+</head>
+<body>
+你好，pikachues！
+
+<!--
+ client_id 客户端id
+ response_type 表示相应类型，这里是code表示相应一个授权码
+ scope 表示授权范围
+ redirect_uri 表示授权成功后跳转的地址
+
+ -->
+<a href="http://localhost:8080/oauth/authorize?client_id=pikachues&response_type=code&scope=all&redirect_uri=http://localhost:8083/index.html">第三方登录</a>
+<h1 th:text="${msg}"></h1>
+
+</body>
+</html>
