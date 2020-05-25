@@ -18,6 +18,7 @@ import org.springframework.security.oauth2.provider.token.RemoteTokenServices;
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 
     /**
+     * 校验 access_token 的真伪
      * 授权服务器跟资源服务器是分开的所以要配这个
      * setCheckTokenEndpointUrl 为token的校验地址
      * @return
