@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c6abc5-5066-45f1-ad49-8e3e800f6e93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/authorization_code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/test/java/com/dpf/clientapp/ClientAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/test/java/com/dpf/clientapp/ClientAppApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../authorization_code_redis/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -141,6 +139,7 @@
       <workItem from="1590224293061" duration="8701000" />
       <workItem from="1590240302119" duration="717000" />
       <workItem from="1590322786111" duration="2463000" />
+      <workItem from="1590372021536" duration="20000" />
     </task>
     <servers />
   </component>

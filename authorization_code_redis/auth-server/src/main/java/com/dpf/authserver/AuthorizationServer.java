@@ -58,6 +58,8 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter  {
         services.setClientDetailsService(clientDetailsService());
         services.setSupportRefreshToken(true);
         services.setTokenStore(tokenStore);
+        services.setAccessTokenValiditySeconds(60*60*2);
+        services.setRefreshTokenValiditySeconds(60*60*24*3);
         return services;
     }
 
@@ -82,6 +84,14 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter  {
      */
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
+//        clients.inMemory()
+//                .withClient("pikachues")
+//                .secret(new BCryptPasswordEncoder().encode("123"))
+//                .resourceIds("res1")  // 客户端id
+//                .authorizedGrantTypes("authorization_code","refresh_token")  //授权类型，四种类型
+//                .scopes("all")  // 授权范围
+//                .redirectUris("http://localhost:8083/index.html");  //用户登录成功/失败后调转的地址
+
         clients.withClientDetails(clientDetailsService());
     }
 
