@@ -33,6 +33,7 @@ import java.util.Arrays;
 @EnableAuthorizationServer  //开启授权服务器的自动化配置
 public class AuthorizationServer extends AuthorizationServerConfigurerAdapter  {
 
+
     @Autowired
     TokenStore tokenStore;
 

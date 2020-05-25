@@ -6,23 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jwt" />
-        <module name="authorization_hello" />
-        <module name="Oauth2" />
-        <module name="authorization_code" />
         <module name="auth-server" />
-        <module name="user-server" />
+        <module name="oauth2-sso" />
+        <module name="client2" />
+        <module name="client1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="client-app" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth-server" options="-parameters" />
-      <module name="client-app" options="-parameters" />
-      <module name="user-server" options="-parameters" />
+      <module name="client1" options="-parameters" />
+      <module name="client2" options="-parameters" />
     </option>
   </component>
 </project>
