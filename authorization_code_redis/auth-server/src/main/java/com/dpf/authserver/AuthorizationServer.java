@@ -58,8 +58,6 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter  {
         services.setClientDetailsService(clientDetailsService());
         services.setSupportRefreshToken(true);
         services.setTokenStore(tokenStore);
-        services.setAccessTokenValiditySeconds(60*60*2);
-        services.setRefreshTokenValiditySeconds(60*60*24*3);
         return services;
     }
 
