@@ -1,14 +1,13 @@
-package com.dpf.clientapp;
+package com.dpf.userserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClientAppApplicationTests {
+class UserServerApplicationTests {
 
     @Test
     void contextLoads() {
-
     }
 
 }

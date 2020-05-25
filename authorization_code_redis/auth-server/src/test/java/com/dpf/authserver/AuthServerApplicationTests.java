@@ -1,14 +1,13 @@
-package com.dpf.clientapp;
+package com.dpf.authserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClientAppApplicationTests {
+class AuthServerApplicationTests {
 
     @Test
     void contextLoads() {
-
     }
 
 }

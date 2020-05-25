@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99c6abc5-5066-45f1-ad49-8e3e800f6e93" name="Default Changelist" comment="" />
+    <list default="true" id="99c6abc5-5066-45f1-ad49-8e3e800f6e93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/authorization_code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/test/java/com/dpf/clientapp/ClientAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/test/java/com/dpf/clientapp/ClientAppApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -54,9 +62,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../oauth2-samples/authorization_code/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../authorization_code_redis/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,6 +140,7 @@
       <workItem from="1590152594632" duration="15159000" />
       <workItem from="1590224293061" duration="8701000" />
       <workItem from="1590240302119" duration="717000" />
+      <workItem from="1590322786111" duration="2463000" />
     </task>
     <servers />
   </component>
@@ -142,10 +152,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1330" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590154374137" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1590159503690">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1590331167441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590159503690" />
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590331167441" />
     <state width="1410" height="266" key="GridCell.Tab.0.bottom" timestamp="1590240042622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -198,17 +208,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="293" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590159636429" />
-    <state x="1222" y="245" width="675" height="655" key="StructurePopup" timestamp="1590154362179">
+    <state x="692" y="272" width="681" height="655" key="StructurePopup" timestamp="1590323443358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1222" y="245" width="675" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1590154362179" />
+    <state x="692" y="272" width="681" height="655" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1590323443358" />
     <state x="256" y="117" width="1598" height="695" key="new project wizard" timestamp="1590159631828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="256" y="117" width="1598" height="695" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590159631828" />
-    <state x="1019" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1590225555294">
+    <state x="1019" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1590323662536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1019" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590225555294" />
+    <state x="1019" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590323662536" />
   </component>
 </project>

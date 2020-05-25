@@ -9,8 +9,9 @@
         <module name="client-app" />
         <module name="authorization_hello" />
         <module name="Oauth2" />
-        <module name="auth-server" />
+        <module name="authorization_code_redis" />
         <module name="authorization_code" />
+        <module name="auth-server" />
         <module name="user-server" />
       </profile>
     </annotationProcessing>
